@@ -4,7 +4,7 @@ const { server } = require('../../server');
 const mongoose = require('mongoose');
 const CONNECTION_URI = require('../../credentials.js');
 
-const socketURL = 'http://localhost:8080';
+const socketURL = 'http://35.242.194.125:8080';
 const options = {
     transports: ['websocket'],
     'force new connection': true,
